@@ -194,7 +194,7 @@
             ' data-swal-forms-required={required}>', input)
         } else {
           inputTag = t("<select id='{id}' class='{clazz} swal-form-field' name='{name}'" +
-            " value='{value}' title='{placeholder}' style='width:100%'>" +
+            " value='{value}' title='{placeholder}'>" +
             ' data-swal-forms-required={}', input) +
               input.options.reduce(toHtmlOptions, '') +
             '</select>'
